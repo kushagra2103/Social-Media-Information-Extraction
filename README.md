@@ -34,40 +34,65 @@ It will give which type of keywords are used the most
 The top five in this dataset are as follows. 
 
 demonetization, 13939
+
 rt: 11059
+
 india: 2766
+
 modi: 2759
+
+
 pm :  2729
 narendra: 1566
 
 Mentions 
+
 We can see celebrity names, people from tech companies, politicians, ministry offices, news media etc. are mentioned. 
 
 @evanspiegel:  1301
+
 @URautelaForever: 1273
+
 @narendramodi: 1059
+
 @gauravcsawant: 541
+
 @ModiBharosa: 539
+
 @DrKumarVishwas:  350
 
 In similar way we can see it for Hashtags
+
 We can see "demonitization" is most mentioned hastags. Apart from demonitization, we can see other hastags used by removing demonitization
+
 #Demonetization :  3030
+
 #demonetization: 2241
+
 #DeMonetization: 706
+
 #demonetization: 704
+
 #India: 286
 
 Others
+
 #India: 286
+
 #nitishkumar: 257
+
 #GLvMIRT: 120
+
 #CorruptionFreeIndia: 103
+
 #BlackMoney: 87
 
 URL/ links mentioned: 
+
 https://t.co/ObQrhlNSL6RT: 277
+
 https://t: 252
+
 https://t.co/UodwXdPMmGRT:  204
 
 Bigrams (two words together)
@@ -75,20 +100,34 @@ Bigrams (two words together)
 Importing ngrams from nltk, we can top bigrams present in the dataset. 
 
 narendra, modi: 1565
+
 india, rich: 1431
+
 pm,narendra: 1424
+
 demonetization, find: 1399
+
 implement, demonetization: 1397
 
 People/ Organizations most mentioned :
+
 It consists of variosu names, palces, organizations etc, depending upon the requirement we can segregate these. 
+
 Some of them are given below
 
 (ORGANIZATION PM/NNP)
+
 (GPE Modi/NNP)
+
 (ORGANIZATION RBI/NNP Dy/NNP)
+
 (ORGANIZATION CBDT/NNP)
+
 (PERSON Harvard/NNP Professor/NNP)
+
 (PERSON Aam/NNP Aadmi/NNP)
 
+Sentiment Analysis 
 
+Using textblob library, we can see how many tweets are postive , negative or neutral. Seeing the polarity values , if  value > 0 it is positive, if value <0 it is negative and if value =0 it is neutral.
+Overall 5984 (40 %), 2202(14.7 %), 6754(45.3 %) are the numbers respectively for number of positive, negative and neutral tweets. 
